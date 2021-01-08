@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.game td
+{
+    width:100px;
+    height:100px;
+    border: solid 5px black;
+    text-align:center;
+    font-size:40pt;
+    border-radius:10px;
+    box-sizing:border-box;
+}
+
+.game td:hover
+{
+    background-color: #fff;
+    cursor:pointer;
+}
+
+.game
+{
+    background:#efefef;
+    height: 100vh;
+
+}
+
+.game .game-title
+{
+    background:#222;
+    color:#fff;
+    padding: 30px;
+    text-align:center;
+    font-size:40px;
+    margin-bottom: 100px;
+    font-family: monospace;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.game .player
+{
+    float:left;
+    text-align:center;
+    width: 25%;
+    font-family: monospace;
+    font-size: 22px;
+}
+
+.game .player .selected
+{
+    border-bottom:solid 5px red;
+    
+   
+}
+
+
+
+.tictactoe-board
+{
+    text-align:center;
+    margin:0 auto;
+    width:50%;
+    padding-top:20px;
+}
+
+.tictactoe-board table
+{
+    float:left;
+    width: 50%;
+}
+
+.tictactoe-board-score1
+{
+    float:left;
+    width:20%;
+}
+
+.tictactoe-board-score2
+{
+    float:left;
+    width:20%;
+}
+
+.clear
+{
+    clear:both;
+}
+
+#but { 
+    box-sizing: border-box; 
+    width: 150px; 
+    height: 50px; 
+    border: 2px solid black; 
+    margin: 20px auto; 
+    border-radius: 4px; 
+    font-family: Verdana, 
+        Geneva, Tahoma, sans-serif; 
+    outline-style: none;
+    background-color: black; 
+    color: white; 
+    font-size: 20px; 
+    cursor: pointer;
+    position: relative;
+    top:60%;
+    left:42%;
+    border-radius: 5px;
+    
+}
+
+#but:hover{
+    background-color: #222;
+} 
+
+
+
+
+
